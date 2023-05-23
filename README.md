@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React.js based weather application.It displays live date,time and weather details such as temperature, wind speed, sunset etc based on the live location of the user(if allowed access) or the city entered by the user. In addition it can also display weather in both units celcius and farenhit. It also displays the weather forecast for next 5 hours and next five days.Based on the temperature, the background of the application also changes
+
+Openweathermap API is used to extract all the weather details and also to provide an array of cities to implement autocomplete feature for the city name after typing atleast 3 characters
+
+Uses tailwind css for the custom styles 
 
 ## Available Scripts
 
